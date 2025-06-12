@@ -13,8 +13,6 @@ public class cachorro extends Animais {
         super(nome,idade);
         this.raca = raca;
     }
-    public cachorro (){
-    }
 
     public String getraca() {
         return raca;
@@ -31,14 +29,15 @@ public class cachorro extends Animais {
 
     @Override
     public void comer() {
-    System.out.println("Cachorro comendo ração");
+        System.out.println("Cachorro comendo ração");
     }
 
     @Override
     public void exibirInformacao() {
-        System.out.println("O nome do cachorro " + this.getNome()+
-        "\nIdade do cachorro"+this.getIdade()+
-        "\nRaça do cachoro"+this.getraca());
-
+        System.out.println("O nome do cachorro é " + this.getNome()+
+                "\nIdade do cachorro é "+this.getIdade()+" anos"+
+                "\nRaça do cachoro é "+this.getraca());
+        System.out.println("-----------------------------------");
     }
+
 }

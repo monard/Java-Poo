@@ -3,15 +3,15 @@ package AnimaisEstimacao;
 public class gato extends Animais{
     private  String corpele;
 
-   /* public gato(String corpele,String exibirinformacao, String comer,String emitirsom) {
-        super(emitirsom,comer,exibirinformacao);
-        this.corpele=corpele;
+    /* public gato(String corpele,String exibirinformacao, String comer,String emitirsom) {
+         super(emitirsom,comer,exibirinformacao);
+         this.corpele=corpele;
 
-    }*/
-   public gato(String nome, int idade, String corpele){
-       super(nome,idade);
-       this.corpele = corpele;
-   }
+     }*/
+    public gato(String nome, int idade, String corpele){
+        super(nome,idade);
+        this.corpele = corpele;
+    }
     public String getcorpele() {
         return corpele;
     }

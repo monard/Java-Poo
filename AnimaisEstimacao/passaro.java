@@ -3,23 +3,23 @@ package AnimaisEstimacao;
 public class passaro extends Animais {
     private  String corpena;
 
-      /*  public passaro(String corpena,String exibirinformacao, String comer,String emitirsom) {
-            super(emitirsom,comer,exibirinformacao);
-            this.corpena=corpena;
+    /*  public passaro(String corpena,String exibirinformacao, String comer,String emitirsom) {
+          super(emitirsom,comer,exibirinformacao);
+          this.corpena=corpena;
 
-        }*/
-      public passaro(String nome, int idade, String corpena)  {
-          super(nome,idade);
-          this.corpena = corpena;
-      }
+      }*/
+    public passaro(String nome, int idade, String corpena)  {
+        super(nome,idade);
+        this.corpena = corpena;
+    }
 
-        public String getcorpena() {
-            return corpena;
-        }
+    public String getcorpena() {
+        return corpena;
+    }
 
-        public void setcorpena(String corpena) {
-            this.corpena = corpena;
-        }
+    public void setcorpena(String corpena) {
+        this.corpena = corpena;
+    }
 
     @Override
     public void emitiSom() {
@@ -38,5 +38,4 @@ public class passaro extends Animais {
                 "\nCor da asa do Passaro"+this.getcorpena());
     }
 
-    }
-
+}

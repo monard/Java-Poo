@@ -1,5 +1,6 @@
 package AnimaisEstimacao;
 
+//modo abstrato
 public abstract class Animais {
     private String nome;
     private int idade;
@@ -15,10 +16,7 @@ public abstract class Animais {
         this.idade = idade;
     }
 
-     public Animais (){
-    }
-
-    public String getNome() {
+     public String getNome() {
         return nome;
     }
 
